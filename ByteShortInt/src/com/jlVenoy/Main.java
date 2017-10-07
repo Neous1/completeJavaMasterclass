@@ -7,6 +7,8 @@ public class Main {
 	// int has a width of 32, the "_" are only meant to make the int more readable.
         int myMinValue = -2_147_483_648;
         int myMaxValue = 2_147_483_647;
+        int myTotal = (myMinValue/2);
+
 
         //byte has a width of 8, ranges from -128 to 127
         byte myByteValue = 127;
