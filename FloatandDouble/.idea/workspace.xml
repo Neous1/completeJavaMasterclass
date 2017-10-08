@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be16ef8d-d762-4ccf-bb44-39d9ddf41037" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/FloatandDouble/com/jlVenoy/Main.class" afterPath="$PROJECT_DIR$/out/production/FloatandDouble/com/jlVenoy/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jlVenoy/Main.java" afterPath="$PROJECT_DIR$/src/com/jlVenoy/Main.java" />
     </list>
@@ -19,8 +18,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/jlVenoy/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="315">
+              <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -147,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1507424502327</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="float has 7 decimal points &#10;and double, has 16 decimal point">
+      <created>1507424655160</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1507424655160</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -188,7 +194,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="float and double" />
     <MESSAGE value="float and double, can have th same value" />
-    <option name="LAST_COMMIT_MESSAGE" value="float and double, can have th same value" />
+    <MESSAGE value="float has 7 decimal points &#10;and double, has 16 decimal point" />
+    <option name="LAST_COMMIT_MESSAGE" value="float has 7 decimal points &#10;and double, has 16 decimal point" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -197,8 +204,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/jlVenoy/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="315">
+          <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
           <folding />
         </state>
       </provider>
