@@ -7,6 +7,10 @@ public class Main {
         int newScore = calculateScore("Yvon", 40);
         System.out.println("New score is " + newScore);
         calculateScore(75);
+        calculateScore();
+
+
+
     }
 
     public static int calculateScore(String playerName, int score){
@@ -15,8 +19,16 @@ public class Main {
     }
 
     //overload the method mby changing the number of parameters
+    //overload method must have an unique signature
     public static int calculateScore(int score){
         System.out.println("Unnamed player scored "+ score+ " points");
         return score * 1000;
     }
+    public static int calculateScore(){
+        System.out.println("No player name, no player score");
+        return 0;
+    }
+
+
+
 }
