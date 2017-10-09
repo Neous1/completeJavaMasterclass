@@ -25,10 +25,7 @@ public class Main {
 
 
     public static void calculateScore(boolean gameOver, int score, int levelCompleted, int bonus){
-         gameOver = true;
-         score =  800;
-         levelCompleted = 5;
-         bonus = 100;
+
         System.out.println("---------------");
 
 
