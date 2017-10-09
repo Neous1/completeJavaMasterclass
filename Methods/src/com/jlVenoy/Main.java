@@ -3,24 +3,21 @@ package com.jlVenoy;
 public class Main {
 
     public static void main(String[] args) {
+
+        calculateScore(true, 800, 5,100);
+
         boolean gameOver = true;
-        int score = 800;
-        int levelCompleted = 5;
-        int bonus = 100;
+        int score = 10000;
+        int levelCompleted = 8;
+        int bonus = 200;
 
-
-        calculateScore(true, 800, levelCompleted, bonus);
-
-        calculateScore(true, 10000, 8, 200);
-
-
+        calculateScore(gameOver, score, levelCompleted, bonus);
     }
 
 
     public static void calculateScore(boolean gameOver, int score, int levelCompleted, int bonus) {
 
         System.out.println("---------------");
-
 
         if (gameOver) {
             int finalScore = score + (levelCompleted * bonus);
