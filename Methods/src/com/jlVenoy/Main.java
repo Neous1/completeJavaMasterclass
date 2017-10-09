@@ -9,7 +9,7 @@ public class Main {
         int bonus = 100;
         System.out.println("---------------");
 
-        calculateScore();
+        calculateScore(gameOver, score, levelCompleted, bonus);
 
 
 
@@ -24,11 +24,11 @@ public class Main {
     }
 
 
-    public static void calculateScore(){
-        boolean gameOver = true;
-        int score =  800;
-        int levelCompleted = 5;
-        int bonus = 100;
+    public static void calculateScore(boolean gameOver, int score, int levelCompleted, int bonus){
+         gameOver = true;
+         score =  800;
+         levelCompleted = 5;
+         bonus = 100;
         System.out.println("---------------");
 
 
