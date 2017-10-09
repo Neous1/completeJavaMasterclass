@@ -90,10 +90,19 @@ public class Main {
 
         System.out.println("-------------------------------------");
         double newVar = 20d;
-        double secondVAr = 80d;
+        double secondVar = 80d;
 
-        double newTotal = (newVar + secondVAr)* 25;
+        double newTotal = (newVar + secondVar)* 25;
         System.out.println("the total is : "+newTotal);
+
+
+        double theRemainder = newTotal % 40;
+        System.out.println("The remainder is " + theRemainder);
+
+        if(theRemainder <=20)
+            System.out.println("Total was over the limit");
+
+
 
 
     }
