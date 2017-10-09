@@ -67,7 +67,7 @@ public class Main {
 
     public static int calculateHighScorePosition(int playerScore){
         if (playerScore >=1000){
-            return 1;
+            return 1; // return the position 1on the high score table
         }else if(playerScore >=500 && playerScore <1000){
             return 2;
         }else if (playerScore >=100 && playerScore < 500){
