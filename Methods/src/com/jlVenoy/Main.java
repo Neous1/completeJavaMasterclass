@@ -4,14 +4,16 @@ public class Main {
 
     public static void main(String[] args) {
 
-        calculateScore(true, 800, 5,100);
+        int highScore = calculateScore(true, 800, 5,100);
+        System.out.println("Your final score was " + highScore);
 
         boolean gameOver = true;
         int score = 10000;
         int levelCompleted = 8;
         int bonus = 200;
 
-        calculateScore(gameOver, score, levelCompleted, bonus);
+         highScore = calculateScore(gameOver, score, levelCompleted, bonus);
+        System.out.println("Your final score was " + highScore);
     }
 
 
@@ -22,7 +24,6 @@ public class Main {
         if (gameOver) {
             int finalScore = score + (levelCompleted * bonus);
             finalScore += 2000;
-            System.out.println("Your final score was " + finalScore);
             return finalScore;
         }
         return -1;

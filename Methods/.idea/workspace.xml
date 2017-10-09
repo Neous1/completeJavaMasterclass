@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e801d3c0-fada-4abe-8726-b8588b366ecf" name="Default" comment="">
+    <list default="true" id="e801d3c0-fada-4abe-8726-b8588b366ecf" name="Default" comment="calculateScore() will return a value if it's not set to void.&#10;&#10;or return -1 if the condition is not met.">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Methods/com/jlVenoy/Main.class" afterPath="$PROJECT_DIR$/out/production/Methods/com/jlVenoy/Main.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/jlVenoy/Main.java" afterPath="$PROJECT_DIR$/src/com/jlVenoy/Main.java" />
     </list>
@@ -18,8 +19,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/jlVenoy/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="465">
+              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -171,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1507570890351</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="calculateScore() will return a value if it's not set to void.&#10;&#10;or return -1 if the condition is not met.">
+      <created>1507571208742</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1507571208742</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -215,7 +223,8 @@
     <MESSAGE value="add parameters to the methods" />
     <MESSAGE value="call calculateScore a second time with different params" />
     <MESSAGE value="call calculateScore a second time with different params&#10;&#10;variables can be define before being call or defined as params" />
-    <option name="LAST_COMMIT_MESSAGE" value="call calculateScore a second time with different params&#10;&#10;variables can be define before being call or defined as params" />
+    <MESSAGE value="calculateScore() will return a value if it's not set to void.&#10;&#10;or return -1 if the condition is not met." />
+    <option name="LAST_COMMIT_MESSAGE" value="calculateScore() will return a value if it's not set to void.&#10;&#10;or return -1 if the condition is not met." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -232,8 +241,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jlVenoy/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state relative-caret-position="465">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>
