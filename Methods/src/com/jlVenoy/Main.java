@@ -4,21 +4,16 @@ public class Main {
 
     public static void main(String[] args) {
         boolean gameOver = true;
-        int score =  1000;
-        int levelCompleted = 8;
-        int bonus = 200;
+        int score =  800;
+        int levelCompleted = 5;
+        int bonus = 100;
         System.out.println("---------------");
 
-
-        if (gameOver){
-            int finalScore = score + (levelCompleted * bonus);
-            finalScore += 1000;
-            System.out.println("Your final score was "+ finalScore);
-        }
+        calculateScore();
 
 
-        gameOver = true;
-        score = 1000;
+
+        score = 10000;
         levelCompleted = 8;
         bonus = 200;
 
@@ -29,4 +24,18 @@ public class Main {
     }
 
 
+    public static void calculateScore(){
+        boolean gameOver = true;
+        int score =  800;
+        int levelCompleted = 5;
+        int bonus = 100;
+        System.out.println("---------------");
+
+
+        if (gameOver){
+            int finalScore = score + (levelCompleted * bonus);
+            finalScore += 1000;
+            System.out.println("Your final score was "+ finalScore);
+        }
+    }
 }
