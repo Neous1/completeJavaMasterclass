@@ -15,7 +15,7 @@ public class Main {
     }
 
 
-    public static void calculateScore(boolean gameOver, int score, int levelCompleted, int bonus) {
+    public static int calculateScore(boolean gameOver, int score, int levelCompleted, int bonus) {
 
         System.out.println("---------------");
 
@@ -23,6 +23,8 @@ public class Main {
             int finalScore = score + (levelCompleted * bonus);
             finalScore += 2000;
             System.out.println("Your final score was " + finalScore);
+            return finalScore;
         }
+        return -1;
     }
 }
