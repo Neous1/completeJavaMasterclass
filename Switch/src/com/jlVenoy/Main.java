@@ -6,7 +6,7 @@ public class Main {
 	// write your code here
 
 
-        int switchValue = 5;
+        int switchValue = 6;
 
         switch (switchValue){
 
@@ -25,7 +25,31 @@ public class Main {
 
 
             default:
-                System.out.println("Was not 1 or 2");
+                System.out.println("Was not 1 ,2,3,4 or 5");
+                break;
+        }
+
+        System.out.println("--------------------");
+        char letter ='f';
+
+        switch (letter){
+            case 'A':
+                System.out.println("Letter is A");
+                break;
+            case 'B':
+                System.out.println("Letter is B");
+                break;
+            case 'C':
+                System.out.println("Letter is C");
+                break;
+            case 'D':
+                System.out.println("Letter is D");
+                break;
+            case 'E':
+                System.out.println("Letter is E");
+                break;
+            default:
+                System.out.println("Letter was not A,B, C, D or E");
                 break;
         }
     }
