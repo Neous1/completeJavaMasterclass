@@ -8,4 +8,12 @@ public class Car {
     private String engine;
     private String colour;
 
+    //create a method to make state accessible
+
+    public void setModel(String model) {
+        //use keyword "this" to refer to the field of the class
+        this.model = model;
+    }
+
+
 }
