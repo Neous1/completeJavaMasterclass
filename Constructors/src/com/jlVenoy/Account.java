@@ -8,12 +8,19 @@ public class Account {
     private String customerPhoneNumber;
 
     public Account(){
+        //the keyword "this" can be use to overload a constructor . it must be the 1st line read .
+        this("56789", 2.50, "Default name", "Default email", "default phone");
+        System.out.println("---------------");
         System.out.println("Empty constructor called");
+
     }
 
     public Account (String number, double balance, String customerName, String customerEmailAddress,
                     String customerPhoneNumber){
+        System.out.println("*******************");
         System.out.println("Account constructor with parameters called");
+        this.number=number;
+        this.balance = balance;
         this.number=number;
         this.balance = balance;
         this.customerName = customerName;

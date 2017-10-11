@@ -17,9 +17,15 @@ public class Main {
 
 
         //call constructor by adding parameters to the new class
-        Account bobsAccount = new Account("12345", 0, "Bob Brown",
-                "myemail@bob.com", "(555)123-1212");
+//        Account bobsAccount = new Account("12345", 0, "Bob Brown",
+//                "myemail@bob.com", "(555)123-1212");
+//
+//
+        //set constructor to empty to call the overloaded constructor
 
+        Account bobsAccount = new Account();
+        System.out.println(bobsAccount.getNumber());
+        System.out.println(bobsAccount.getBalance());
 
         bobsAccount.withdrawal(100);
 
