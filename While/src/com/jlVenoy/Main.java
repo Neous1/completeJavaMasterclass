@@ -36,22 +36,23 @@ public class Main {
         * return true if a even number , otherwise return false
         * */
 
-        isEvenNumber(6);
+        int number = 5;
+        int finishNumber = 20;
+        while(number <= finishNumber){
+            if(!isEvenNumber(number)){
+                number++;
+                continue;
+            }
+            System.out.println("Even number "+number);
+            number++;
+        }
     }
 
 
-    public static int isEvenNumber(int a) {
-        while (a > 0) {
-            if (a % 2 == 0) {
-                System.out.println(a + " is an even number");
-                break;
-            } else {
-                System.out.println(a + " is not an even number");
-                break;
-            }
-
+    public static boolean isEvenNumber(int number) {
+        if ((number % 2) == 0) {
+            return true;
         }
-        return a;
-
+        return false;
     }
 }
