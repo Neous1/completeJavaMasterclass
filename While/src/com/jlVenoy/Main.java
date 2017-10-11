@@ -37,26 +37,31 @@ public class Main {
         * return true if a even number , otherwise return false
         * */
 
-        int count = 0;
-        int number = 5;
-        int finishNumber = 20;
-        while(number <= finishNumber){
-            if(!isEvenNumber(number)){
-                number++;
-                continue;
-            }
-count++;
-            System.out.println("Even number "+number );
-            number++;
-        }
-        System.out.println("total number of even number  = " + count);
 
 
-        /* Modify the while code above
+        /* Modify the while code below
         make it also record the total number of even numbers it has found
         adn break once 5 are found
         and at the end, display the total number of even numbers found
          */
+        int count = 0;
+        int number = 5;
+        int finishNumber = 20;
+        while (number <= finishNumber) {
+            if (!isEvenNumber(number)) {
+                number++;
+                continue;
+            }
+            count++;
+
+            System.out.println("Even number " + number);
+            number++;
+            if(count >=5){
+                break;
+            }
+        }
+        System.out.println("total number of even number  = " + count);
+
     }
 
 
