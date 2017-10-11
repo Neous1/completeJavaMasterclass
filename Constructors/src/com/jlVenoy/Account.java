@@ -3,18 +3,18 @@ package com.jlVenoy;
 public class Account {
     private String number;
     private double balance;
-    private String customerNmae;
+    private String customerName;
     private String customerEmailAddress;
     private String customerPhoneNumber;
 
     public void deposit(double depositAmount){
         this.balance += depositAmount;
-        System.out.println("Deposit of " +depositAmount+ "made.  New balance is " + this.balance);
+        System.out.println("Deposit of " +depositAmount+ " made.  New balance is " + this.balance);
     }
 
     public void withdrawal (double withdrawalAmount){
         if(this.balance - withdrawalAmount <=0){
-            System.out.println("Only" + this.balance + " available. Withdrawal not processed");
+            System.out.println("Only " + this.balance + " available. Withdrawal not processed");
         }else {
             this.balance -= withdrawalAmount;
             System.out.println("Withdrawal of " + withdrawalAmount + " processed. Remaining balance = " +this.balance );
@@ -32,20 +32,20 @@ public class Account {
         this.number = number;
     }
 
-    public double getbalance() {
+    public double getBalance() {
         return this.balance;
     }
 
-    public void setbalance(double balance) {
+    public void setBalance(double balance) {
         this.balance = balance;
     }
 
-    public String getCustomerNmae() {
-        return customerNmae;
+    public String getCustomerName() {
+        return customerName;
     }
 
-    public void setCustomerNmae(String customerNmae) {
-        this.customerNmae = customerNmae;
+    public void setCustomerName(String customerName) {
+        this.customerName = customerName;
     }
 
     public String getCustomerEmailAddress() {
