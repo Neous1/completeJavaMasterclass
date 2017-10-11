@@ -16,13 +16,10 @@ public class Main {
         // Add some System.out.println's in the two methods above as well.
 
 
-        Account bobsAccount = new Account();
+        //call constructor by adding parameters to the new class
+        Account bobsAccount = new Account("12345", 0, "Bob Brown",
+                "myemail@bob.com", "(555)123-1212");
 
-        bobsAccount.setNumber("12345");
-        bobsAccount.setBalance(0);
-        bobsAccount.setCustomerName("Bob Brown");
-        bobsAccount.setCustomerEmailAddress("myemail@bbob.com");
-        bobsAccount.setCustomerPhoneNumber("(555)123-1212");
 
         bobsAccount.withdrawal(100);
 
