@@ -54,7 +54,7 @@ public class Main {
         if(n ==1){
             return false;
         }
-        for (int i = 2; i<= n/2; i++){
+        for (int i = 2; i<= (long)Math.sqrt(n); i++){ // using the sqrt instead of (n/2)  in our condition makes it slightly faster, as there is less looping thru n.
             if (n % i ==0 ){
                 return false;
             }
