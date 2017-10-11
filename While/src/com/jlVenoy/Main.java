@@ -37,8 +37,6 @@ public class Main {
         * return true if a even number , otherwise return false
         * */
 
-
-
         /* Modify the while code below
         make it also record the total number of even numbers it has found
         adn break once 5 are found
