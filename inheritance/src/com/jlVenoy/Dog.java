@@ -26,4 +26,24 @@ public class Dog extends Animal {
         chew();
         super.eat();
     }
+
+    public void walk(){
+        System.out.println("Dog.walk() called");
+        super.move(5); //we're using super.move to superseed the Override of move defined in this class
+    }
+
+    public void run(){
+        System.out.println("Dog.run() called ");
+        move(10);// we're not using the super.move() in which we wish to overide the move method.
+    }
+
+    public void moveLegs (int speed){
+        System.out.println("Dog.moveLegs() called");
+    }
+    @Override
+    public void move(int speed) {
+        System.out.println("Dog.move() called");
+        moveLegs(speed);
+        super.move(speed);
+    }
 }
