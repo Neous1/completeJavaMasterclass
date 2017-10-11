@@ -12,7 +12,14 @@ public class Car {
 
     public void setModel(String model) {
         //use keyword "this" to refer to the field of the class
-        this.model = model;
+
+        //test
+        String validModel = model.toLowerCase();
+        if(validModel.equals("911")||validModel.equals("commodore")){
+            this.model = model;
+        }else{
+            this.model="unknown";
+        }
     }
 
     public String getModel(){
