@@ -40,10 +40,63 @@ class Mitsubishi extends Car{
         super(cylinders, name);
     }
 
+    @Override
+    public String startEngine() {
+        return "Mitsubishi -> startEngine";
+    }
 
+    @Override
+    public String accelerate() {
+        return "Mitsubishi -> accelerate";
+    }
+
+    @Override
+    public String brake() {
+        return "Mitsubishi -> brake";
+    }
 }
 
+class Ford extends Car{
+    public Ford(int cylinders, String name) {
+        super(cylinders, name);
+    }
 
+    @Override
+    public String startEngine() {
+        return "Ford -> startEngine";
+    }
+
+    @Override
+    public String accelerate() {
+        return "Ford -> accelerate";
+    }
+
+    @Override
+    public String brake() {
+        return "Ford -> brake";
+    }
+}
+
+class Acura extends Car{
+    public Acura(int cylinders, String name) {
+        super(cylinders, name);
+    }
+
+    @Override
+    public String startEngine() {
+        return getClass().getSimpleName() + "-> startEngine";
+    }
+
+    @Override
+    public String accelerate() {
+        return getClass().getSimpleName() + "-> accelerate";
+    }
+
+    @Override
+    public String brake() {
+        return getClass().getSimpleName() + "-> brake";
+    }
+}
 
 public class Main {
 
@@ -64,5 +117,27 @@ public class Main {
         // Now create 3 sub classes for your favorite vehicles.
         // Override the appropriate methods to demonstrate polymorphism in use.
         // put all classes in the one java file (this one).
+
+        Car car = new Car(8, "Base car");
+        System.out.println(car.startEngine());
+        System.out.println(car.accelerate());
+        System.out.println(car.brake());
+
+        Mitsubishi mitsubishi= new Mitsubishi(6, "Outlander VRW 4WD");
+        System.out.println(mitsubishi.startEngine());
+        System.out.println(mitsubishi.accelerate());
+        System.out.println(mitsubishi.brake());
+
+        Ford ford= new Ford(6, "Expedition");
+        System.out.println(ford.startEngine());
+        System.out.println(ford.accelerate());
+        System.out.println(ford.brake());
+
+        Acura acura= new Acura(6, "MDX SHWD");
+        System.out.println(acura.startEngine());
+        System.out.println(acura.accelerate());
+        System.out.println(acura.brake());
     }
+
+
 }
