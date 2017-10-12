@@ -19,7 +19,7 @@ public class Main {
 //		System.out.println("Remaining health = " + player.healthRemaining());
 
 
-		EnhancedPlayer player = new EnhancedPlayer("Yvon", 75, "numchuck");
+		EnhancedPlayer player = new EnhancedPlayer("Yvon", 200, "numchuck");
 		System.out.println("Initial health is " + player.getHealth());
 	}
 }
