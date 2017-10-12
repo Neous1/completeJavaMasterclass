@@ -37,9 +37,14 @@ public class Main {
         hamburger.addHamburgerAddition1("Tomato", .10);
         hamburger.addHamburgerAddition2("lettuce", .30);
         hamburger.addHamburgerAddition3("cheese", .70);
-        hamburger.addHamburgerAddition4("pickles", .10);
-        System.out.println("Total Burger price is " + String.format("%.2f",hamburger.itemizeHamburger()));
+//        hamburger.addHamburgerAddition4("pickles", .10);
+        System.out.println("Total Burger price is " + String.format("%.2f", hamburger.itemizeHamburger()));
+        System.out.println("------------------------");
 
+        HealthyBurger healthyBurger = new HealthyBurger("Bacon", 5.75);
+        healthyBurger.addHamburgerAddition1("egg", 4.5);
 
-    }
-}
+        healthyBurger.addHealthAddition1("Lentils", 3.25);
+
+        System.out.println("Total Health Burger price is " + String.format("%.2f", healthyBurger.itemizeHamburger()));
+    }}
