@@ -47,4 +47,9 @@ public class Main {
         healthyBurger.addHealthAddition1("Lentils", 3.25);
 
         System.out.println("Total Health Burger price is " + String.format("%.2f", healthyBurger.itemizeHamburger()));
-    }}
+
+        DeluxeBurger db= new DeluxeBurger();
+        db.itemizeHamburger();
+
+    }
+}
